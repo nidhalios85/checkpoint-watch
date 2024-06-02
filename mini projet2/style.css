@@ -1,0 +1,120 @@
+/* styles.css */
+
+/* General styles */
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand{
+    font-size: 18px; 
+        font-weight: normal;
+        margin-left: 10px;
+        font-family: 'Pacifico', cursive;
+}
+
+/* Header styles */
+.header {
+    background-color: #f8f9fa;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar is on top of other content */
+}
+
+/* Hero section styles */
+.hero {
+    background: url('photos/homeBg.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 100px 0;
+    text-align: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+/* Product section styles */
+.products {
+    padding: 50px 0;
+}
+
+.products h2 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+}
+
+.product-card {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.card-body .btn{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.product-card h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.product-card p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1.2em;
+    }
+
+    .products h2 {
+        font-size: 2em;
+    }
+
+    .product-card h3 {
+        font-size: 1.2em;
+    }
+
+    .product-card p {
+        font-size: 0.9em;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); /*imprter le font utilisé pour le slogan*/
